@@ -1,0 +1,78 @@
+[
+  {
+    "uid": "8422121123",
+    "password": "NGRAXX__",
+    "region": "IND",
+    "clan_id": "3056416365",
+    "_running_since": "2026-11-08T18:14:19"
+  },
+  {
+    "uid": "8422122287",
+    "password": "NGRAXX__",
+    "region": "IND",
+    "clan_id": "3056416365",
+    "_running_since": "2026-11-08T18:14:19"
+  },
+  {
+    "uid": "8422123384",
+    "password": "NGRAXX__",
+    "region": "IND",
+    "clan_id": "3056416365",
+    "_running_since": "2026-11-08T18:14:19"
+  },
+  {
+    "uid": "8422125484",
+    "password": "NGRAXX__",
+    "region": "IND",
+    "clan_id": "3056416365",
+    "_running_since": "2026-11-08T18:14:19"
+  },
+  {
+    "uid": "8422191483",
+    "password": "NGRX_17RS8_BNQDB",
+    "name": "NGRX64295665",
+    "account_id": "19059924962",
+    "region": "IND",
+    "clan_id": "3055561479",
+    "access_token": "2791b55764c13a1fc0a4ae1b2d2f9c85f958a25f532a027634366060d74a8efe",
+    "thread_id": 5,
+    "at": "2026-11-08 08:19:56",
+    "_running_since": "2026-11-08T18:14:19"
+  },
+  {
+    "uid": "8422191561",
+    "password": "NGRX_C9YPP_I4TG4",
+    "name": "NGRX80364912",
+    "account_id": "19059925252",
+    "region": "IND",
+    "clan_id": "3055561479",
+    "access_token": "76276b9b635f48adc744129288b893f862c1008116ac8e230f9c9ff8a34937d5",
+    "thread_id": 5,
+    "at": "2026-11-08 08:19:57",
+    "_running_since": "2026-11-08T18:14:19"
+  },
+  {
+    "uid": "8422191495",
+    "password": "NGRX_W18R8_7L8CZ",
+    "name": "NGRX77537046",
+    "account_id": "19059925241",
+    "region": "IND",
+    "clan_id": "3055561479",
+    "access_token": "5c0d7df62d613644d951cc5a4623f07a488bb5bc74e6b31947ba8e4a298270f3",
+    "thread_id": 2,
+    "at": "2026-11-08 08:19:58",
+    "_running_since": "2026-11-08T18:14:19"
+  },
+  {
+    "uid": "8422191633",
+    "password": "NGRX_Z4ZAK_K7F5O",
+    "name": "NGRX26198095",
+    "account_id": "19059925532",
+    "region": "IND",
+    "clan_id": "3055561479",
+    "access_token": "622829d966294b61c51beffed167b0f084ba37930941478049d33adc954566e3",
+    "thread_id": 5,
+    "at": "2026-11-08 08:19:59",
+    "_running_since": "2026-11-08T18:14:19"
+  }
+]
