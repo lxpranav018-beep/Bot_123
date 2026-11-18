@@ -3527,16 +3527,16 @@ async def main():
         print_error(f"[BOOT] autoload: {e}")
 
     try:
-       start_time = time.time()
-        while True:
-            await asyncio.sleep(5)
-            if time.time() - start_time > 3600:
-                print_warning("60 minutes completed. Restarting...")
-                os.execv(sys.executable, ['python'] + sys.argv)
-    except (KeyboardInterrupt, asyncio.CancelledError):
-        print_warning("Shutting down...")
-        for t in list(bot_state.account_workers.values()): t.cancel()
-        await asyncio.gather(*bot_state.account_workers.values(), return_exceptions=True)
+    start_time = time.time()
+    while True:
+        await asyncio.sleep(5)
+        if time.time() - start_time > 3600:
+            print_warning("60 minutes completed, Restarting...")
+            os.execv(sys.executable, ['python'] + sys.argv)
+except (KeyboardInterrupt, asyncio.CancelledError):
+    print_warning("Shutting down...")
+    for t in list(bot_state.account_workers.values()): t.cancel()
+    await asyncio.gather(*bot_state.account_workers.values(), return_exceptions=True)
         try: await client.aclose()
         except Exception: pass
         print_success("Closed.")
